@@ -1,0 +1,21 @@
+@import "src/assets/variables";
+
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blocks__section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blocks__member-card {
+  margin: 10px;
+}
+
+.blocks__title {
+  color: $main-accent-color;
+}

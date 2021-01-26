@@ -1,0 +1,5 @@
+<ng-container *ngFor="let pageBlock of pageData">
+  <ng-container [ngSwitch]="pageBlock.type">
+    <article app-blocks *ngSwitchCase="'blocks'" [block]="pageBlock"></article>
+  </ng-container>
+</ng-container>

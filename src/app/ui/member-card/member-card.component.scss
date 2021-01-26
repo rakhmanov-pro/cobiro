@@ -1,0 +1,18 @@
+@import "src/assets/variables";
+
+:host {
+  display: flex;
+  flex-direction: column;
+}
+
+.member-card__user-title {
+  color: $main-accent-color;
+}
+
+.member-card__user-description {
+  margin-bottom: 20px;
+}
+
+.member-card__user-info {
+  margin-left: 20px;
+}

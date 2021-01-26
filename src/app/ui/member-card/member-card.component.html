@@ -1,0 +1,8 @@
+<img app-image [image]="memberCard.imageUrl">
+
+<div class="member-card__user-info">
+  <h4 class="member-card__user-title">{{memberCard.block.title}}</h4>
+  <p class="member-card__user-description">{{memberCard.block.description}}</p>
+  <a href="mailto:{{memberCard.block.link}}">{{memberCard.block.link}}</a>
+  <p>{{memberCard.block.text}}</p>
+</div>

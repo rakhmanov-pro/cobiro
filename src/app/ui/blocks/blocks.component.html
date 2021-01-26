@@ -1,0 +1,9 @@
+<h1 class="blocks__title">{{block.attributes.title}}</h1>
+<section class="blocks__section">
+  <app-member-card
+    *ngFor="let cardEntry of block.attributes.memberCards | keyvalue"
+    [memberCard]="cardEntry.value"
+    class="blocks__member-card"
+  >
+  </app-member-card>
+</section>

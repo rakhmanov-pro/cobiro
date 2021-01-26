@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+@import "src/assets/variables";
+
+body {
+  font-family: 'Times New Roman', serif;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
+p {
+  color: $paragraph-color;
+  margin: 0;
+}
+
+h4 {
+  margin-bottom: 0;
+}
